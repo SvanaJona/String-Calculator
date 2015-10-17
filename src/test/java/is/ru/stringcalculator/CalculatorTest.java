@@ -36,7 +36,10 @@ public class CalculatorTest {
 
      @Test
     public void testMultipleNumbersWithDelimiter(){
+    	try {
     	assertEquals(6, Calculator.add("-2,-1,0,1"));
+    		}
+    		assertEquals("Negatives not allowed: [-2, -1]")
     }*/
 
 
