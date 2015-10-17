@@ -35,8 +35,8 @@ public class CalculatorTest {
     }*/
 
      @Test
-    public void testMultipleNumbersWithLine(){
-    	assertEquals(6, Calculator.add("1\n2,3"));
+    public void testMultipleNumbersWithDelimiter(){
+    	assertEquals(6, Calculator.add("//;1;n2;3"));
     }*/
 
 
