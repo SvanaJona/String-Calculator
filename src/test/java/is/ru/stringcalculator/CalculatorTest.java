@@ -27,12 +27,19 @@ public class CalculatorTest {
 	@Test
     public void testMultipleNumbers(){
     	assertEquals(6, Calculator.add("1,2,3"));
-    }*/
+    }
 
     @Test
     public void testMultipleNumbers(){
     	assertEquals(15, Calculator.add("1,2,3,4,5"));
-    }
+    }*/
+
+     @Test
+    public void testMultipleNumbersWithLine(){
+    	assertEquals(6, Calculator.add("1n2,3"));
+    }*/
+
+
 
 
 
