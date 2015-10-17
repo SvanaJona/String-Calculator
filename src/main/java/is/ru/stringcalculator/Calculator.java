@@ -2,7 +2,7 @@ package is.ru.stringcalculator;
 
 public class Calculator {
 
-	public static int add(String text){
+	/*public static int add(String text){
 		if(text.equals("")){
 			return 0;
 		}
@@ -27,7 +27,20 @@ public class Calculator {
 		    total += toInt(number);
 		}
 		return total;
-    }
+    }*/
+
+    public static int add(String text){
+		if(text.equals("")){
+			return 0;
+		}
+		else if(text.contains(",")){
+			return sum(splitNumbers(text));
+		}
+		else
+			return 1;
+	}
+
+
 
 
 
